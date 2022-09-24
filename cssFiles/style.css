@@ -1,0 +1,320 @@
+/* Start Header */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* النسبه بتاعت البادنج حسبها على الا اساس 15% بنسبه ايه ؟ */
+.contaner {
+    width: 95%;
+    margin: auto;
+    margin-top: 15%;
+}
+
+.header {
+    background-color: #ffffff;
+    height: 45px;
+}
+.header .contaner{
+    margin-top: 0px;
+}
+.logo {
+    width: 12%;
+}
+
+ul {
+    float: right;
+}
+
+/* Why width did not accept (%) And what happen with (hr tag)?  */
+li {
+    display: inline-block;
+    color: #534f50;
+    margin: 15px;
+}
+
+li a {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+/* end Header */
+/* why did not take a height auto ? */
+/* start Home */
+.home {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.text-home {
+    margin: auto;
+    padding-top: 20%;
+    width: 50%;
+    color: #ffffff;
+}
+.text-home h1{
+    margin-bottom: 12px;
+}
+
+.text-home p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.button-of-home {
+    padding-top: 10px;
+}
+
+.button-of-home .button1 , .button2  {
+    margin: 6px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #8e7754;
+    color: #ffffff;
+}
+.button-of-home .button1{
+    background-color: transparent;
+    border: #ffffff 2px solid;
+}
+
+.about .about-img {
+    float: left;
+    width: 40%;
+    padding-top: 20px;
+}
+
+.about .about-img img {
+    width: 100%;
+}
+
+.about .about-info {
+    float: right;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.about .about-info h2 {
+    padding-bottom: 8px;
+    color: #534f50;
+}
+
+.about-info-text {
+    padding-top: 15px;
+}
+
+.about-info-text div {
+    display: inline-block;
+    padding-top: 5px;
+    width: 100%;
+}
+/*  */
+.about-info-text div img {
+    width: 10%;
+    float: left;
+}
+
+.about-info-text div p {
+    margin-left: 15%;
+    margin-top: 15px;
+}
+
+/* start location */
+.location {
+    background-color: #f6f6f6;
+}
+
+.location .contaner {
+    padding: 25px 0px;
+
+}
+
+.location-text {
+    float: left;
+    width: 40%;
+    margin-top: 8%;
+}
+
+.location-text h4 {
+    font-weight: 900;
+    font-size: 30px;
+    color:#534f50 ;
+    padding-bottom: 12px;
+}
+
+.location-text p {
+    font-size: 20px;
+}
+
+.location-img img {
+    width: 45%;
+    float: right;
+
+}
+
+/* start baking */
+.baking-header {
+    text-align: center;
+}
+
+.baking-header h3, p {
+    margin-bottom: 20px;
+    color: #534f50;
+}
+
+.baking-body {
+    margin: auto;
+}
+
+.baking-co {
+    width: 25%;
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+
+}
+
+.baking-co img {
+    width: 100%;
+}
+
+.baking-co h3 {
+    font-weight: 300;
+    padding: 10px 0px;
+    color: #534f50;
+    font-weight: bold;
+    /* margin: 15px 0px; */
+}
+
+/* start   map */
+.map {
+    /* padding: 60px 0px; */
+    background-color: #f6f6f6;
+}
+
+.map .contaner {
+    padding: 50px 0;
+
+
+}
+
+.map-text-father {
+    width: 40%;
+    float: left;
+}
+
+.map-text-header {
+    padding-bottom: 45px;
+}
+
+.map-text-header h3 {
+    padding-bottom: 15px;
+    color: #534f50;
+}
+
+.map-text-body div {
+    padding-bottom: 15px;
+}
+
+.map-text-body h4 {
+    padding-bottom: 22px;
+    color: #534f50;
+}
+
+.map-text-body img {
+    width: 30px;
+    padding-right: 30px;
+}
+
+.map-text-body p {
+    display: inline-block;
+    margin-bottom: 0px;
+
+}
+
+.map-img {
+    width: 45%;
+    float: right;
+
+}
+
+.map-img img {
+    width: 100%;
+}
+
+/* start contact */
+.contact {
+    background-color: #403d38;
+}
+
+.contact-co div h4 {
+    padding: 30px 0px 25px;
+    color: #f8f4f9;
+    font-weight: 200;
+}
+
+.contact-co div {
+    float: left;
+    width: 22%;
+    margin-right: 25px;
+
+}
+
+.contact-co div p {
+    color: #939596;
+    padding-bottom: 5px;
+    border-bottom: #939596 1px solid;
+}
+
+.world-map {
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.world-map div {
+    width: 100%;
+}
+
+
+.world-map div p {
+
+    float: right;
+    margin-right: 75px;
+}
+
+.footer {
+    background-color: #353330;
+    height: 250px;
+    margin: auto;
+}
+
+.footer div {
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.footer div img {
+    margin: auto;
+}
+
+.footer div .img1 {
+    margin-left: 60px;
+
+}
+
+.footer div .img2 {
+    margin-left: 160px;
+
+}
